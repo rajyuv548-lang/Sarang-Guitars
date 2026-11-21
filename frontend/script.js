@@ -3,7 +3,7 @@
 // SARANG AI - CHATBOT FUNCTIONALITY
 // ======================================
 
-const API_URL = "http://127.0.0.1:8000/api/chat";
+const API_URL = "/api/chat";
 
 const chatForm = document.getElementById("chatForm");
 const userInput = document.getElementById("userInput");
