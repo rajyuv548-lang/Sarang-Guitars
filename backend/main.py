@@ -38,13 +38,11 @@ class ChatRequest(BaseModel):
 
 
 # Home endpoint
-@app.get("/")
-def home():
-    return {
-        "message": "Welcome to Sarang AI!",
-        "status": "Backend is running"
-    }
+from pathlib import Path
 
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+app.frontend("/", directory=str(BASE_DIR / "frontend"))
 
 # Health endpoint
 @app.get("/health")
