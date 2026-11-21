@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sarang AI - Your intelligent guitar shopping assistant.">
+    <title>Sarang AI | Find Your Sound</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="logo">
+            SARANG<span>AI</span>
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#assistant">AI Assistant</a>
+            <a href="#about">About</a>
+        </nav>
+
+        <a href="#assistant" class="nav-button">Explore Guitars ↗</a>
+    </header>
+
+
+    <!-- Hero Section -->
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+                <p class="eyebrow">YOUR PERSONAL GUITAR GUIDE</p>
+
+                <h1>
+                    Find the guitar<br>
+                    that <span>feels like you.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Whether you're a beginner or an experienced musician,
+                    let AI help you discover your perfect sound.
+                </p>
+
+                <a href="#assistant" class="primary-button">
+                    Find My Guitar →
+                </a>
+            </div>
+
+            <div class="hero-visual">
+                <div class="hero-image-placeholder">
+                    <span>GUITARS / YOUR SOUND / YOUR STORY</span>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- AI Assistant Section -->
+        <section class="assistant-section" id="assistant">
+
+            <div class="section-heading">
+                <p class="eyebrow">MEET YOUR AI ASSISTANT</p>
+                <h2>Let's find your sound.</h2>
+                <p>
+                    Tell us what you're looking for.
+                    We'll help you find the right guitar.
+                </p>
+            </div>
+
+            <div class="chat-container">
+
+                <div class="chat-header">
+                    <div>
+                        <h3>Sarang AI</h3>
+                        <p><span class="status-dot"></span> Your guitar assistant</p>
+                    </div>
+
+                    <span class="chat-label">AI POWERED</span>
+                </div>
+
+                <div class="chat-messages" id="chatMessages">
+
+                    <div class="message bot-message">
+                        Hey! Welcome to Sarang AI.
+
+                        I'm here to help you find your perfect guitar.
+                        What's your budget, and what kind of music do you play?
+                    </div>
+
+                </div>
+
+                <div class="suggestions">
+                    <button class="suggestion">Best guitar under ₹10,000</button>
+                    <button class="suggestion">Guitar for beginners</button>
+                    <button class="suggestion">Acoustic vs electric</button>
+                </div>
+
+                <form class="chat-input-area" id="chatForm">
+                    <input
+                        type="text"
+                        id="userInput"
+                        placeholder="Ask anything about guitars..."
+                        autocomplete="off"
+                    >
+
+                    <button type="submit" id="sendButton">
+                        Send ↑
+                    </button>
+                </form>
+
+                <p class="chat-disclaimer">
+                    Sarang AI can make mistakes. Always verify product details.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <p class="eyebrow">ABOUT SARANG AI</p>
+            <h2>Less confusion. More music.</h2>
+            <p>
+                Choosing a guitar shouldn't be complicated.
+                Sarang AI makes discovering the right instrument
+                simpler through intelligent recommendations.
+            </p>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="logo">SARANG<span>AI</span></div>
+        <p>Made for people who love music.</p>
+        <p>© 2026 Sarang AI. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
